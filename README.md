@@ -56,6 +56,15 @@ That's it!
 
 1. `leo deploy` - Need some credits first
 
+## How it works
+- Admin is able to add an address to a blacklist mapping
+- If the sender or recipient address belongs to the blacklist mapping, the transfer fails.
+
+## Use Case
+- Prevent money laundering 
+- Poisoned addresses cannot send or receive the token to other addresses
+
+
 ## Execution
 
 - Initialize: `leo run initialize`
