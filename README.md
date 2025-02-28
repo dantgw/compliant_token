@@ -1,5 +1,15 @@
 # **Aleo Workshop: Compliant Token Challenge – Earn $100!**  
 
+
+## How it works
+- Admin is able to add an address to a blacklist mapping
+- If the sender or recipient address belongs to the blacklist mapping, the transfer fails.
+
+## Use Case
+- Prevent money laundering 
+- Poisoned addresses cannot send or receive the token to other addresses
+
+
 ## **Overview**  
 This workshop is focused on exploring compliance mechanisms within the Aleo ecosystem. Participants can earn **$100 USD** by deploying a new Aleo program that introduces a **compliance rule, mechanism, or example** related to compliant tokens. The best use of pAleo/Pondo tokens will earn an additional **$150 USD** worth of the pondo token.
 
@@ -56,13 +66,6 @@ That's it!
 
 1. `leo deploy` - Need some credits first
 
-## How it works
-- Admin is able to add an address to a blacklist mapping
-- If the sender or recipient address belongs to the blacklist mapping, the transfer fails.
-
-## Use Case
-- Prevent money laundering 
-- Poisoned addresses cannot send or receive the token to other addresses
 
 
 ## Execution
